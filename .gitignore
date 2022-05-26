@@ -4,10 +4,12 @@ docs/PCA_files_resnet20_plain/
 
 scripts/**
 
+.vscode/**
 
+data
+data/
+data/**
 
-
-
-
+results/**
 
 
