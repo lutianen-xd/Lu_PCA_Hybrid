@@ -54,7 +54,7 @@ model_names = sorted(name for name in models.__dict__
 CURRENT_TIME = str(datetime.now())
 SAVE_DIR = os.path.join("results/test_cifar100", CURRENT_TIME)
 if not os.path.exists(SAVE_DIR):
-    os.mkdir(SAVE_DIR)
+    os.makedirs(SAVE_DIR)
 
 
 ################ Functions ###################
